@@ -6,4 +6,5 @@ export default defineConfig({
   plugins: [
     react(),
   ],
+  base: 'https://AlfaSystemas5457.github.io/repo-page'
 })
