@@ -17,7 +17,7 @@ export default function App() {
                         title={item.name}
                         link={item.link}
                         version={item.version}
-                        className="flex-1 min-w-[200px] max-w-[300px]" />
+                        className="flex-1 min-w-[400px]" />
                 ))}
             </div>
         </div>
