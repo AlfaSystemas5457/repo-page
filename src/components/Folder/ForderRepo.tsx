@@ -17,7 +17,7 @@ export function FolderRepo({ title, link, className, version }: Props) {
     }
 
     return (
-        <div onClick={handleLick} className={className + "bg-slate-50 dark:bg-slate-800 rounded-3xl h-fit flex flex-row hover:cursor-pointer hover:scale-110 hover:shadow-lg transition-all duration-300 m-2 mx-5"}>
+        <div onClick={handleLick} className={className + " " + "bg-slate-50 dark:bg-slate-800 rounded-3xl h-fit flex flex-row hover:cursor-pointer hover:scale-110 hover:shadow-lg transition-all duration-300 m-2 mx-5"}>
             <div className="flex-none w-20 p-5 relative rounded-3xl">
                 <FaFolderMinus className="w-full h-full aspect-square " />
             </div>
